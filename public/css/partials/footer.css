@@ -1,0 +1,37 @@
+.bg-footer {
+    background: #04070c;
+}
+/*Footer Section*/
+.footercontainer h6 {
+    color: #6d7f96;
+    font-size: 20px !important;
+}
+.socialicons i {
+    color: #6d7f96;
+}
+.lastfooter {
+    background: linear-gradient(
+        to right,
+        #b420e1,
+        #256dff,
+        #6fd300,
+        #f45606,
+        #d31f1d
+    );
+}
+.lastfooter h5 {
+    color: white;
+
+    font-size: 18px;
+}
+.footercontainer a {
+    color: #778aa3 !important;
+}
+.footercontainer span {
+    color: #778aa3;
+}
+.dropdown-toggle {
+    color: #fff;
+    background-color: #04070c;
+    border-color: #04070c;
+}

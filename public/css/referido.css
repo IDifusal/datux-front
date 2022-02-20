@@ -1,0 +1,43 @@
+
+.mod-left{
+    background: linear-gradient(#0163FF,#04AEF1);
+    color: white;
+}
+.mod-inputs{
+    outline: none;
+    border:none;
+    border-bottom: 2px solid lightgrey;
+}
+
+.name a{
+    color: grey;
+}
+
+.regalohead h1{
+    font-size: 64px;
+    color: #0057D2;
+}
+@media only screen and (max-width: 600px) {
+    
+    .regalohead h1{
+        font-size: 32px;
+    }
+    
+}	
+.linkcard{
+    background:linear-gradient(#FFAD01,#FF8E01) !important;
+    border-radius: 10px; 
+}
+.linkcard input{
+    background:transparent;
+    border:2px solid white;
+}
+.socialiconscard i{
+    color: white;
+}
+.detailed{
+    background-color: #101928;
+}
+input.form-control.mb-4.text-light.text {
+    background: transparent;
+}

@@ -1,0 +1,365 @@
+.results a {
+    color: #9c2554;
+}
+#cartsec {
+    display: none;
+    margin-left: 50% !important;
+    width: 40%;
+}
+@media only screen and (max-width: 768px) {
+    #cartsec {
+        margin-left: 0% !important;
+        width: 100%;
+    }
+}
+.mod-left {
+    background: linear-gradient(#0163ff, #04aef1);
+    color: white;
+}
+.mod-inputs {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+}
+.videosec {
+    background-color: #101928;
+}
+.topsec {
+    background-color: #101928;
+}
+
+.coursecard {
+    background-color: #101928;
+    color: lightgrey;
+}
+.coursebtn1 {
+    color: white;
+    background-color: #0157d2;
+    letter-spacing: 1px;
+    border: 1px solid #0157d2;
+    width: 95% !important;
+}
+.coursebtn2 {
+    color: white;
+    background: transparent;
+    letter-spacing: 1px;
+    width: 100%;
+    border: 1px solid #0157d2;
+}
+.expertbox {
+    background-color: #101928;
+}
+.main1 {
+    background-color: #101927;
+    border-radius: 10px;
+}
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.agrbtn {
+    background-color: transparent;
+    border: none;
+}
+.agrbtn:hover {
+    background-color: #8a57ef !important;
+}
+.combtn {
+    background-color: #0057d2;
+    border: none;
+}
+.combtn:hover {
+    background-color: #8a57ef !important;
+}
+.fa-heart {
+    position: absolute;
+    left: 90%;
+    top: 5%;
+}
+.fa-heart {
+    color: red !important;
+}
+.activespan {
+    background-color: #07b1bd;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    border-radius: 15px;
+    padding: 0px 5px 0px 5px;
+}
+.otherspan {
+    background-color: #f4744b;
+    color: white;
+    border-radius: 15px;
+    padding: 0px 5px 0px 5px;
+}
+.twobtn {
+    border-top: 2px solid white;
+    padding-top: 0px;
+    outline: none;
+    width: 100%;
+}
+
+.pagination i {
+    background-color: grey;
+}
+
+.coment {
+    background-color: #8a57ef;
+}
+.coment h5 {
+    color: #272e44;
+}
+.coment p,
+h6 {
+    color: white;
+}
+.coment img {
+    border-radius: 50%;
+    display: inline-block;
+}
+.fa-star {
+    color: #efd358;
+}
+.coment {
+    border-radius: 10px;
+}
+/*Footer Section*/
+.footercontainer {
+    background-color: #04070c;
+}
+.footercontainer h5 {
+    color: #6d7f96;
+}
+.socialicons i {
+    color: #6d7f96;
+}
+.lastfooter {
+    background: linear-gradient(
+        to right,
+        #b420e1,
+        #256dff,
+        #6fd300,
+        #f45606,
+        #d31f1d
+    );
+}
+.lastfooter h5 {
+    color: white;
+}
+.footercontainer a {
+    color: #232a34;
+}
+.dropdown-toggle {
+    color: #fff;
+    background-color: #04070c;
+    border-color: #04070c;
+}
+@media only screen and (max-width: 400px) {
+    .navbar {
+        padding: 0px;
+    }
+    .navbar-collapse {
+        display: none;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .navbar-brand {
+        text-align: center;
+        margin-right: 0px;
+        width: 73%;
+    }
+    .navbar-brand img {
+        width: 30%;
+        margin-left: 7%;
+    }
+    .cart {
+        color: white;
+    }
+    .lastmail {
+        margin-top: 50px;
+        text-align: left !important;
+        color: white;
+    }
+    .lastfooter h5 {
+        font-size: 16px;
+    }
+
+    .navb {
+        background-color: #101927;
+        opacity: 1;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .navb a {
+        color: white;
+        font-size: 11px;
+        padding: 5px;
+        /*width: 20%;*/
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .mobicons {
+        font-size: 20px !important;
+    }
+    .cartp1,
+    .cartp2 {
+        font-size: 11px;
+    }
+    .carth4 {
+        font-size: 12px;
+    }
+    .cartprice {
+        font-size: 12px;
+    }
+    .nava1 {
+        width: 18%;
+    }
+    .nava2 {
+        width: 18%;
+    }
+    .nava3 {
+        width: 18%;
+    }
+    .nava4 {
+        width: 23%;
+    }
+    .nava5 {
+        width: 23%;
+    }
+}
+@media only screen and (min-width: 400px) {
+    .cart {
+        display: none;
+    }
+    .navb {
+        display: none !important;
+    }
+    .angleleft {
+        display: none;
+    }
+}
+.title-curso {
+    font-size: 41px;
+    margin-top: 70px;
+}
+.autor-curso {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.contenido_title {
+    font-size: 28px;
+}
+.content2_title {
+    margin-top: 42px;
+}
+.txt-28 {
+    font-size: 28px;
+    margin-right: 15px;
+}
+.title_3 {
+    margin-top: 80px;
+}
+.coursecard {
+    background: #101927 !important;
+    margin-top: 134px;
+}
+.curso-prog,
+.preview-curso-1 {
+    background: #101927;
+    border-radius: 5px;
+}
+.autor-curso,
+.precio-desc {
+    color: #778aa3;
+}
+.curso-prog_content {
+    padding: 0px 0px 0px 18px;
+}
+.btn-comprar {
+    background: #0057d2;
+    border-radius: 0px 0px 5px 0px;
+}
+.btn-comprar:hover {
+    background: #8a57ef !important;
+    border-radius: 0px 0px 5px 0px;
+}
+.prices {
+    margin-top: 9px;
+}
+.cursos-btn {
+    margin-top: 18px;
+}
+.btn-comprar {
+    padding: 14px 0px;
+}
+
+.accordion {
+    font-size: 21px !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion:hover {
+    background-color: #0057d2;
+}
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: transparent;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.active-1 {
+    display: block;
+}
+.accordion:after {
+    content: "\02795"; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+@media(max-width:850px){
+    .title-curso{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .autor-curso, .precio-desc{
+        color:#FFFFFF;
+        margin-top: 4px;
+    }
+    .topsec{
+        padding-bottom: 90px !important;
+    }
+    .contenido_title{
+        font-size: 21px;
+    }
+}
+.text-18{
+    font-size: 18px !important;
+}
+.questions{
+    padding: 0;
+}
+.sec-tab{
+    padding: 0 !important;
+}
+.lh-29{
+    line-height: 29px;
+}

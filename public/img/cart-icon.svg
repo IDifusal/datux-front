@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.2" height="19.2" viewBox="0 0 19.2 19.2">
+  <g id="Group_6" data-name="Group 6" transform="translate(0)">
+    <circle id="Oval" cx="2" cy="2" r="2" transform="translate(3.2 15.2)" fill="#fff"/>
+    <circle id="Oval-2" data-name="Oval" cx="2" cy="2" r="2" transform="translate(13.6 15.2)" fill="#fff"/>
+    <path id="Path" d="M16,13.6H4.8a.8.8,0,0,1-.793-.694L2.5,1.6H0V0H3.2a.8.8,0,0,1,.793.694L4.434,4H18.4a.8.8,0,0,1,.766,1.03l-2.4,8A.8.8,0,0,1,16,13.6Z" transform="translate(0)" fill="#fff"/>
+  </g>
+</svg>

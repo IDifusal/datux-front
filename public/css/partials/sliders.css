@@ -1,0 +1,10 @@
+.carousel-indicators {
+    left: -45% !important;
+    top: 4% !important;
+}
+
+@media (max-width: 850px) {
+    .carousel-indicators {
+        display: hidden !important;
+    }
+}

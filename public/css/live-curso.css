@@ -1,0 +1,336 @@
+/*Headerimg*/
+@media only screen and (max-width: 992px) {
+    .imgover{
+        flex-direction: column;
+    }
+    
+}
+
+.socialicons i{
+    color: #DAE3E5 !important;
+}
+@media only screen and (max-width: 576px) {
+    
+    .icflex{
+        flex-direction: column;
+    }
+}
+
+/*Course section*/
+.coursecard{
+    background-color: #101928 !important;
+    color: lightgrey; 
+}
+.coursebtn{
+    color: white;
+    background-color: #8A58EF;
+    letter-spacing: 1px;
+}
+.courseleft{
+    color: lightgrey;
+}
+.courseleft h4{
+    color: #8A58EF;
+}
+
+.online{
+    background-color: #0157D2;
+}
+
+.tblbtn1{
+    background-color: #FF2066;
+    width: 40%;
+}
+.tblbtn2{
+    width: 40%;
+    background:transparent;
+    border:3px solid #FF2066;
+}
+
+.unete h1{
+
+    font-size: 60px;
+    background: -webkit-linear-gradient(45deg,#0464FB,#03B2F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+@media only screen and (max-width: 576px) {
+    
+    .unete h1{
+        font-size: 32px;
+    }
+    
+}
+
+/*Card Slider Start*/
+
+/* medium - display 2  */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(50%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-50%);
+    }
+}
+
+/* large - display 3 */
+@media (min-width: 992px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33%);
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}
+.card-slider{
+    background-color: #162131;
+}
+.card-headings h2{
+    color: white;
+    font-size: 40px;
+}
+.card-headings h1{
+    color: #028AF7;
+    font-size: 50px;
+}
+@media only screen and (max-width: 768px) {
+    
+    .card-headings h1{
+        font-size: 32px !important;
+        margin-left: 0px !important;
+    }
+    .card-headings h2{
+        font-size: 24px !important;
+        margin-left: 0px !important;
+    }
+    .card{
+        width: 95% !important;
+        margin: auto;
+    }
+}
+.card{
+    background-color: #101927;
+}
+
+.cursosimgslide{
+    max-width: 361px;
+    border:none;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.cursosimgslide p, h5{
+    color: lightgrey;
+}
+.cursosimgslide img{
+    border-radius: 10px;
+}
+.content-portada {
+    bottom: 40px;
+    left: 100px;
+}
+.cursosimgslide h5{
+    font-size: 19px;
+}
+.cursosimgslide p{
+    font-size: 14px;
+    color: #95A3BF;
+}
+.category{
+    font-size: 12px;
+    color: #95A3BF;
+}
+.portadabg {
+    background-image: url("assets/images/portada2.png");
+    height: 550px;
+    border-radius: 20px;
+    background-size: cover;
+}
+.secondnav a {
+    color: #dae3e5;
+}
+.portadabg {
+    background-image: url("assets/images/portada2.png");
+    height: 550px;
+    border-radius: 20px;
+    background-size: cover;
+}
+.socialicons i {
+    color: #dae3e5 !important;
+}
+.socialicons {
+    right: 100px;
+    bottom: 40px;
+}
+.imgover {
+    height: 552px;
+}
+@media only screen and (max-width: 992px) {
+    .imgover {
+        flex-direction: column;
+    }
+}
+
+.inputs {
+    background-color: transparent !important;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+/*Card Slider Start*/
+
+/* medium - display 2  */
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(50%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-50%);
+    }
+}
+
+/* large - display 3 */
+@media (min-width: 992px) {
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33%);
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}
+.card-slider {
+    background-color: #162131;
+    padding: 75px 0px !important;
+}
+.card-headings h2 {
+    color: white;
+    font-size: 40px;
+}
+#splide{
+    padding: 0;
+}
+.card-headings h1 {
+    color: #028af7;
+    font-size: 50px;
+}
+@media only screen and (max-width: 768px) {
+    .card-headings h1 {
+        font-size: 32px !important;
+        margin-left: 0px !important;
+    }
+    .card-headings h2 {
+        font-size: 24px !important;
+        margin-left: 0px !important;
+    }
+}
+.card {
+    background-color: #101927;
+}
+
+.cursosimgslide {
+    border: none;
+    margin-right: 84px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.cursosimgslide img {
+    border-radius: 10px;
+}
+.content-portada {
+    bottom: 40px;
+    left: 100px;
+}
+.cursosimgslide h5{
+    font-size: 19px;
+}
+.cursosimgslide p{
+    font-size: 14px;
+    color: #95A3BF;
+}
+.category{
+    font-size: 12px;
+    color: #95A3BF;
+}
+.table-hover>tbody>tr:hover>* {
+    color: white !important;
+}
+.text-red{
+    color:#FF2065
+}a.carousel-control-prev.bg-dark.w-auto {
+    display: none;
+}
+@media(max-width:850px){
+    h4.text-31{
+        margin-top: 52px;
+    }
+    .content-portada{
+        left: 16px;
+        bottom: 80px;
+    }
+    .socialicons{
+        left: 16px;
+        bottom: 40px;
+    }
+    .card.cursosimgslide {
+        margin: auto;
+    }
+}

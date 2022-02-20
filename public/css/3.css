@@ -1,0 +1,110 @@
+/*Headline*/
+.headline h2 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(
+        45deg,
+        #ffa647,
+        #e17fca,
+        #8c99e6,
+        #8c99e6
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media only screen and (max-width: 576px) {
+    .headline h2 {
+        font-size: 41px;
+    }
+}
+.headline {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.contu span {
+    font-size: 60px;
+    background: #ff2065;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+@media only screen and (max-width: 576px) {
+    .contu span {
+        font-size: 34px;
+    }
+    .contu h2 {
+        font-size: 32px !important;
+    }
+    .cardtext h2 {
+        font-size: 34px !important;
+    }
+}
+.contu h2 {
+    font-size: 60px;
+    color: #242d3e;
+}
+
+/*3% section*/
+.bodiv {
+    border: 3px solid white;
+    border-radius: 5px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    color: white;
+    padding: 15px 10px 15px 15px;
+    font-size: 30px;
+}
+@media only screen and (max-width: 576px) {
+    .bodiv {
+        padding: 0px 45px 0px 0px;
+    }
+}
+.cardtext h2 {
+    font-size: 53px;
+}
+/*second lg text*/
+.lgtext {
+}
+.lgtext h2 {
+    font-size: 64px;
+    background: #ff2065;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media only screen and (max-width: 576px) {
+    .lgtext h2{
+        font-size: 32px;
+    }
+    .marcas h2 {
+        font-size: 41px !important;
+    }
+}
+.lgtext {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+/*Procreate Section*/
+.probtn {
+    background-color: #0157d2;
+    font-size: 18px;
+}
+
+/*marcas*/
+.marcas h2 {
+    font-size: 64px;
+    color: #0157d2;
+}
+.procreate-section {
+    padding: 91px 97px 0px 95px;
+}
+@media(max-width:850px){
+    .procreate-section {
+        width: 90% !important;
+        margin: auto;
+        padding: 24px 12px 0px 12px;
+    }
+    
+}

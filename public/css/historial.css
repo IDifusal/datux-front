@@ -1,0 +1,258 @@
+.navbtn {
+    color: white;
+    background-color: #ff2065;
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+@media only screen and (max-width: 768px) {
+    #navline {
+        display: none;
+    }
+}
+/*Cursos Menu*/
+.cursosmenu {
+    background-color: #101928;
+    display: none;
+}
+.cursosmenu h6 a {
+    color: #d9dcdd;
+}
+.cursosmenu h5 a {
+    color: #637388;
+}
+
+/*datux Menu*/
+.datuxmenu {
+    background-color: #101928;
+    display: none;
+}
+.datuxmenu img {
+    border-radius: 10px;
+}
+.datuxmenu h6 a {
+    color: #d9dcdd;
+}
+.datuxmenu h5 a {
+    color: #637388;
+}
+
+/*Cumonidad menu*/
+.cumonidadmenu {
+    background-color: #101928;
+    display: none;
+}
+.cumonidadmenu img {
+    border-radius: 10px !important;
+}
+.cumonidadmenu h6 a {
+    color: #d9dcdd;
+}
+.cumonidadmenu h5 a {
+    color: #637388;
+}
+.searchbar {
+    display: none;
+}
+.searchcontent {
+    background-color: #101928;
+}
+
+.results a {
+    color: #9c2554;
+}
+#cartsec {
+    display: none;
+    margin-left: 50% !important;
+    width: 40%;
+}
+@media only screen and (max-width: 768px) {
+    #cartsec {
+        margin-left: 0% !important;
+        width: 100%;
+    }
+}
+
+.mod-left {
+    background: linear-gradient(#0163ff, #04aef1);
+    color: white;
+}
+.mod-inputs {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+}
+
+.name a {
+    color: grey;
+}
+
+.rightdesc {
+    background-color: #101928;
+    padding: 24px 35px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.rightdesc button {
+    background-color: #0157d2;
+    border: none;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .rightdesc button {
+        width: 80%;
+    }
+    .rightdesc p {
+        margin-top: 20px !important;
+    }
+}
+.rightdesc button:hover {
+    background-color: #8a57ef;
+    border: none;
+}
+.progress-bar {
+    background-color: #fe2066;
+}
+
+/*Footer Section*/
+.footercontainer {
+    background-color: #04070c;
+}
+.footercontainer h5 {
+    color: #6d7f96;
+}
+.socialicons i {
+    background-color: #04070c;
+    color: #6d7f96;
+}
+.lastfooter {
+    background: linear-gradient(
+        to right,
+        #b420e1,
+        #256dff,
+        #6fd300,
+        #f45606,
+        #d31f1d
+    );
+}
+.lastfooter h5 {
+    color: white;
+}
+.footercontainer a {
+    color: #232a34;
+}
+.dropdown-toggle {
+    color: #fff;
+    background-color: #04070c;
+    border-color: #04070c;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar {
+        padding: 0px;
+    }
+    .navbar-collapse {
+        display: none;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .navbar-brand {
+        text-align: center;
+        margin-right: 0px;
+        width: 73%;
+    }
+    .navbar-brand img {
+        width: 30%;
+        margin-left: 7%;
+    }
+    .cart {
+        color: white;
+    }
+    .lastmail {
+        margin-top: 50px;
+        text-align: left !important;
+        color: white;
+    }
+    .lastfooter h5 {
+        font-size: 16px;
+    }
+
+    .navb {
+        background-color: #101927;
+        opacity: 1;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .navb a {
+        color: white;
+        font-size: 11px;
+        padding: 5px;
+        /*width: 20%;*/
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .mobicons {
+        font-size: 20px !important;
+    }
+    .cartp1,
+    .cartp2 {
+        font-size: 11px;
+    }
+    .carth4 {
+        font-size: 12px;
+    }
+    .cartprice {
+        font-size: 12px;
+    }
+    .nava1 {
+        width: 18%;
+    }
+    .nava2 {
+        width: 18%;
+    }
+    .nava3 {
+        width: 18%;
+    }
+    .nava4 {
+        width: 23%;
+    }
+    .nava5 {
+        width: 23%;
+    }
+}
+@media only screen and (min-width: 400px) {
+    .cart {
+        display: none;
+    }
+    .navb {
+        display: none !important;
+    }
+    .angleleft {
+        display: none;
+    }
+}
+.progress {
+    background-color: rgb(255, 32, 101, 0.25) !important;
+    height: 5px !important;
+}
+.title-miscursos {
+    font-size: 21px;
+    margin-bottom: 21px;
+}
+.fa-arrow-right {
+    margin-left: 20px;
+}
+.mi-curso_item {
+    margin-top: 55px;
+    background: #101927;
+}
+
+@media(max-width:850px){
+    .bg-main{
+        padding: 0 15px;
+    }
+}

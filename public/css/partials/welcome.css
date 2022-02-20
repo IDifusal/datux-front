@@ -1,0 +1,430 @@
+html{
+overflow-x: hidden;
+}
+.slider-title {
+    font-size: 63px;
+    text-align: left;
+}
+.carousel-caption.d-none.d-md-block {
+    position: absolute;
+    top: 280px;
+    left: 10%;
+}
+.slider-content {
+    font-size: 21px;
+    color: #778aa3;
+    margin-top: 80px;
+}
+.unete {
+    z-index: 9;
+    bottom: 0;
+    left: 149px;
+}
+.unete-1st {
+    color: white;
+    background: transparent linear-gradient(270deg, #3385ef 0%, #256ac2 100%) 0%
+        0% no-repeat padding-box;
+}
+.unete-2sd {
+    background: #373737 0% 0% no-repeat padding-box;
+}
+.cursos-section {
+    background: #162131;
+}
+button#nav-tab {
+    font-size: 65px;
+}
+#nav-tab-curso-1,
+#nav-tab-curso-2,
+#nav-tab-curso-3 {
+    background: transparent;
+    border: none;
+    font-size: 65px;
+    padding: 0px;
+}
+.curso-2,
+.curso-3 {
+    margin-left: 108px;
+}
+.title-cursos {
+    font-size: 41px;
+    padding-top: 130px;
+}
+#nav-tab-curso-2,
+#nav-tab-curso-3 {
+    margin-left: 190px !important;
+}
+.nav-link {
+    color: #2b364a;
+}
+.nav-link.active {
+    color: #d8d8d8 !important;
+}
+.curso-prog,
+.preview-curso-1 {
+    background: #101927;
+    border-radius: 5px;
+}
+.autor-curso,
+.precio-desc {
+    color: #778aa3;
+}
+.curso-prog_content {
+    padding: 0px 0px 0px 18px;
+}
+.btn-comprar {
+    background: #0057d2;
+    border-radius: 0px 0px 5px 0px;
+}
+.prices {
+    margin-top: 9px;
+}
+.cursos-btn {
+    margin-top: 18px;
+}
+.btn-comprar {
+    padding: 14px 0px;
+}
+#nav-tabContent {
+    margin-top: 78px;
+}
+.badge-nuevo {
+    background: #f4744b;
+    border-radius: 10px;
+}
+.title-curso-des {
+    margin-top: 9px;
+}
+.fa-shopping-cart::before {
+    color: #0057d2;
+}
+.sec-domina_title {
+    font-size: 53px;
+    width: 30%;
+}
+.sec-domina {
+    padding-top: 250px;
+    padding-bottom: 150px;
+}
+.sec-domina_content {
+    margin-top: 40px;
+    font-size: 24px;
+    width: 40%;
+}
+.sec-domina_title:after {
+    content: "aprendizaje produndo";
+    color: #ff2065;
+}
+.inicia-sesion-1 {
+    margin-top: 34px;
+    color: white;
+    background: #ff2065;
+    padding: 15px 30px;
+}
+.img-sec-domina {
+    right: 0;
+    top: 20%;
+}
+.content-clases {
+}
+.sec-clases-title {
+    font-size: 53px;
+}
+.sec-clases-title:after {
+    content: "vida real";
+    color: #ff2065;
+}
+.sec-clases_content {
+    width: 70%;
+    font-size: 24px;
+}
+.sec-clases {
+    padding: 250px 0px 350px 0px;
+}
+.img-sec-clases {
+    left: 0;
+    top: 0;
+}
+.sec-cert_title {
+    font-size: 53px;
+    color: #ff2065 !important;
+}
+.sec-cert_title:after {
+    content: "reconocidas por la industria";
+    color: white !important;
+}
+.sec-cert {
+    padding: 150px 0px 250px 0px;
+}
+.img-sec-cert {
+    right: 10%;
+    top: 10%;
+}
+.sec-cert_content {
+    width: 40%;
+    font-size: 24px;
+}
+.sec-netas_content {
+    width: 50%;
+    margin: auto;
+}
+.title-sec-metas {
+    font-size: 53px;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.sec-metas {
+    padding-bottom: 350px;
+}
+.section-estudiante {
+    padding-top: 500px;
+}
+.img-sec-estudiante {
+    top: -30%;
+}
+.title_estudiante {
+    font-size: 53px;
+    font-weight: 500;
+}
+.content_estudiante {
+    font-size: 24px;
+    width: 80%;
+}
+.btn-crear-cuenta {
+    background: #ff2065;
+    font-size: 18px;
+    color: white;
+    padding: 14px 30px;
+    margin-right: 10px;
+}
+.btn-inicia-sesion {
+    margin-left: 10px;
+    color: #ff2065;
+    background: transparent;
+    font-size: 18px;
+    padding: 14px 30px;
+    border: 1px solid #ff2065;
+}
+.btn-estudiantes {
+    margin-top: 65px;
+    padding-bottom: 102px;
+    display: flex;
+    justify-content: center;
+}
+.section-banner-1 {
+    height: 100vh;
+    width: 100vw;
+    background: url("/img/banner-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_header {
+    font-size: 22px;
+}
+.banner_title {
+    font-size: 41px;
+    width: 60%;
+}
+.section-banner-content {
+    top: 25%;
+    left: 6%;
+}
+.banner_title,
+.btn-banner {
+    margin-top: 33px;
+}
+.btn-banner {
+    margin-top: 50px;
+}
+/*coment Section*/
+.comenthead {
+    color: white;
+}
+.comenthead h1 {
+    font-size: 53px;
+    margin-top: 100px;
+}
+.coment {
+    margin-bottom: 20px;
+}
+.pagination i {
+    background-color: grey;
+}
+@media only screen and (max-width: 400px) {
+    .comenthead h1 {
+        font-size: 24px;
+    }
+    .footercontainer {
+        text-align: center;
+    }
+    .compsection img {
+        margin-top: 40px;
+    }
+    #comh1 {
+        font-size: 24px !important;
+    }
+    .navbar-brand img {
+        width: 30%;
+    }
+}
+.coment {
+    background-color: #8a57ef;
+}
+.coment h5 {
+    color: #272e44;
+}
+.coment p,
+h6 {
+    color: white;
+}
+.coment img {
+    border-radius: 50%;
+    display: inline-block;
+}
+.fa-star {
+    color: #efd358;
+}
+.coment {
+    border-radius: 10px;
+}
+.comentarios_title_2 {
+    font-size: 53px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.sec-logos {
+    padding-bottom: 129px;
+}
+.splide__slide {
+    margin-right: 11px !important;
+}
+ul#splide-list {
+    height: 500px;
+}
+.splide__arrow{
+    top: 90% !important;
+}
+.splide__arrow--prev {
+    left: 8em !important;
+}
+.splide__arrow--next {
+    right: 8em !important;
+}
+
+ul.splide__pagination{
+    display: none  !important;
+}
+@media (max-width:850px){
+    #nav-tab-curso-1, #nav-tab-curso-2, #nav-tab-curso-3 {
+        font-size: 35px;
+    }
+    #nav-tab{
+        width: 2000px;
+    }
+    #nav-tab-curso-2, #nav-tab-curso-3 {
+        margin-left: 70px !important ;
+    }
+    .title-cursos{
+        font-size: 23px;
+    }.splide__slide{
+        width: 254px;
+    }
+    .sec-domina_title{
+        font-size: 35px;
+        width: 90%;
+        font-weight: 400;
+    }
+    main{
+        padding: 0px 16px;
+        background:#162131
+    }
+    .sec-domina_content{
+        font-size: 18px;
+        width: 95%;
+    }
+    .sec-clases-title{
+        font-size: 35px;
+    }
+    .sec-clases_content{
+        font-size: 18px;
+        width: 95%;
+    }
+    .sec-clases{
+        padding: 100px 0px 0px 0px;
+    }
+    .sec-cert_title{
+        font-size: 35px;
+    }
+    .sec-cert_content{
+        width: 95%;
+        font-size: 18px;
+    }
+    .title-sec-metas{
+        font-size: 35px;
+        width: 80%;
+        margin: auto;
+    }
+    .sec-netas_content{
+        width: 90%;
+    }
+    .img-sec-estudiante{
+        top: -7%;
+    }
+    .sec-metas{
+        padding-bottom: 180px;
+    }
+    .section-estudiante{
+            padding-top: 180px;
+    }
+    .title_estudiante{
+        font-size: 35px;
+    }
+    .content_estudiante{
+        font-size: 18px;
+        width: 95%;
+        margin-top: 50px;
+    }
+    .btn-crear-cuenta, .btn-inicia-sesion{
+        font-size: 16px;
+    }
+    .banner_header{
+        font-size:18px ;
+    }
+    .banner_title{
+        font-size: 23px;
+        width: 95%;
+    }
+    .comenthead h1{
+        font-size: 35px;
+    }
+    .comentarios_title_2{
+        font-size: 35px;
+        width: 95%;
+    }
+    .sec-domina{
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    .sec-cert{
+        padding: 100px 0px 75px 0px;
+    }
+    .desktop-navbar{
+        display: none;
+    }
+}
+@media(min-width:850px){
+    .mobile-navbar{
+        display: none;
+    }
+}.navbar.sticky.active {
+    position: fixed !important; 
+    top: 0px;
+    width: 100%;
+  }
+  #navbarmobile{
+      background: #101927;
+      z-index: 99;
+  }
+  

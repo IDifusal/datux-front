@@ -1,0 +1,75 @@
+.tophead{
+    background-color: #0157D2;
+}
+.gradiv{
+    background:linear-gradient(to right, #A862FF,#1565FA);
+}
+.bodiv{
+    border:2px solid white;
+    border-radius: 6px;
+    display: flex;
+    color: white;
+    height: 51px;
+    width: 51px;
+    place-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 576px) {
+    .bodiv{
+        width: 150px;
+        height: 60px;
+    }
+}
+.rightpayment{
+    background-color: #101928;
+    border-radius: 18px;
+}
+.dropdown-toggle {
+    color: #fff;
+    background-color: #04070C;
+    border-color: #04070C;
+}
+.mainpay{
+    border: 1px solid #0D3F7D;
+}
+.paybtn{
+    background-color: #8A58EF;
+    width: 100%;
+}
+.paypal{
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+}
+.img-curso-carrito{
+    width: 116px;
+    height: 98px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.cursos-carrito{
+    height: 400px;
+    width: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+input.form-control {
+    background: white !important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #162131; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #242D3E 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
